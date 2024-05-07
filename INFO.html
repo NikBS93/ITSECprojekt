@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITsikkerhed</title>
+    <link rel="stylesheet" href="StyleITprojekt.css" />
+    <script src="https://kit.fontawesome.com/5cf679f779.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="IndexITprojekt.html" id="navbar__logo"><i class="fas fa-shield"></i>  ITSEC</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="IndexITprojekt.html" class="navbar__links"> Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="links.html" class="navbar__links"> Links</a>
+          </li>
+          <li class="navbar__item">
+            <a href="INFO.html" class="navbar__links"> INFO</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="QUIZ.html" class="button"> QUIZ</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero Sction-->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>ITSEC</h1>
+                <h2>INFORMATION</h2>
+                <p>A dive into cyber security.</p>
+                <button class="main__btn"><a href="QUIZ.html">Take the QUIZ!</a></button>
+            </div>
+            <div class="main__img--container">
+                <img src="images/pic1.svg" alt="pic" id="main__img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section-->
+    <div class="services">
+        <div class="main__content">
+            <h1>Welcome to Cybersecurity 101: Protecting Your Digital World</h1>
+            <p>1. UPDATE YOUR SOFTWARE</p>
+            <p>Keep your operating system, apps, and antivirus up-to-date.</p> 
+            <p>Regular updates patch security holes, keeping hackers out.</p> 
+            <p>on automatic updates for hassle-free protection.</p>
+            <p>2. STRONG PASSWORDS</p>
+            <p>Use unique, complex passwords for each account.</p>
+            <p>Avoid common phrases and consider a password manager for easy management.</p>
+            <p>3. TWO-FACTOR AUTHENTICATION (2FA):</p>
+            <p>Add extra security layers to your accounts.</p>
+            <p>Pair passwords with a code sent to your phone for added protection.</p>
+            <p>4. WATCH FOR PHISING: </p>
+            <p>Be cautious of suspicious emails or calls asking for personal info.</p>
+            <p>Verify sources before clicking links or downloading attachments.</p>
+            <p>5. SECURE YOUR HOME NETWORK</p>
+            <p>Protect your Wi-Fi network with a strong, unique password and enable encryption.</p>
+            <p>Consider hiding your network's SSID and regularly update your router.</p>
+            <p>6. PRACTICE SAFE BROWSING:</p>
+            <p>Exercise caution when browsing the web.</p>
+            <p>Stick to reputable websites for sensitive activities, ensure URLs start with "https://".</p>
+            <p>7. REGUARLY BACK UP DATA:</p>
+            <p>Protect your valuable files by regularly backing them up to external drives or cloud storage.</p>
+        </div>
+        <div class="services__container">
+            <div class="services__card">
+                <h2>Secure yourself</h2>
+                <p>Learn even more!</p>
+                <button onclick="redirectToLINKS()">Links to more information</button>
+            </div>
+            <div class="services__card">
+                <h2>Are you ready?</h2>
+                <p>Try it out now!</p>
+                <button onclick="redirectToQUIZ()">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="JSITprojekt.js"></script>
+  </body>
+</html>
